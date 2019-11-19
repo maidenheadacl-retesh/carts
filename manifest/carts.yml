@@ -19,9 +19,9 @@ spec:
         - name: JAVA_OPTS
           value: -Xms128m -Xmx512m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseG1GC -Djava.security.egd=file:/dev/urandom
         - name: DT_TAGS
-          value: "product=sockshop"
+          value: "product=sockshop owner=acllab1"
         - name: DT_CUSTOM_PROP
-          value: "SERVICE_TYPE=BACKEND"
+          value: "SERVICE_TYPE=BACKEND owner=acllab1"
         resources:
           limits:
             cpu: 500m
